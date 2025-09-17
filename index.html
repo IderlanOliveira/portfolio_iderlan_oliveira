@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iderlan Oliveira | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <h1>Iderlan Oliveira</h1>
+      <nav class="nav-links">
+        <a href="#sobre" data-scroll>Sobre</a>
+        <a href="#projetos" data-scroll>Projetos</a>
+        <a href="#contato" data-scroll>Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="section">
+      <div class="container about-container">
+        <div class="about-image-wrapper">
+          <img src="/img/IMG-20200908-WA0068 - Copia.jpg" alt="Foto de Iderlan Oliveira" class="about-img" id="profile-image">
+        </div>
+        <div class="about-text">
+          <h2>Sobre Mim</h2>
+          <p id="about-text">
+            👋 Olá, sou <strong>Iderlan Oliveira</strong>, <strong>Desenvolvedor Front-End</strong>, <strong>Web Designer</strong> e apaixonado por <strong>UX/UI</strong>.<br><br>
+            Desde o primeiro contato com o universo digital, descobri na tecnologia uma verdadeira vocação: criar interfaces que não apenas funcionam, mas encantam.<br><br>
+            Trabalho com foco no desenvolvimento de <strong>experiências visuais modernas, minimalistas e responsivas</strong>, sempre aliando <strong>design inteligente</strong> e <strong>funcionalidade</strong> através de <strong>HTML, CSS e JavaScript</strong>.<br><br>
+            Acredito que <strong>cada linha de código</strong> e <strong>cada detalhe visual</strong> têm o poder de transformar a forma como as pessoas interagem com o digital. Por isso, busco constantemente evoluir, aprender novas ferramentas e me aprofundar nas <strong>melhores práticas de UX e UI</strong>.<br><br>
+            💡 Se você chegou até aqui, seja bem-vindo ao meu portfólio. Sinta-se à vontade para conhecer meus projetos e entrar em contato!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid" id="projects-container">
+          <!-- Projetos serão carregados via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:iderlanoliveira19@gmail.com">iderlanoliveira19@gmail.com</a></p>
+        <p>GitHub: <a href="#" id="github-link">github.com/IderlanOliveira</a></p>
+        <p>LinkedIn: <a href="#" id="linkedin-link">linkedin.com/in/iderlanoliveira</a></p>
+        
+        <form id="contact-form" class="contact-form">
+          <h3>Envie uma mensagem</h3>
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Seu e-mail" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="current-year">2025</span> Iderlan Oliveira. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
