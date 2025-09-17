@@ -1,5 +1,3 @@
-import { Analytics } from "@vercel/analytics/next"
-
 // Dados dos projetos (pode ser substituído por uma API no futuro)
 const projectsData = [
   {
