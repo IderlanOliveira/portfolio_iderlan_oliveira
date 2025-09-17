@@ -1,23 +1,23 @@
 // Dados dos projetos (pode ser substituído por uma API no futuro)
 const projectsData = [
   {
-    title: "Landing Page Responsiva",
-    description: "Uma landing page moderna e totalmente responsiva para um produto digital, com foco em conversão e experiência do usuário.",
-    link: "#",
-    technologies: ["HTML", "CSS", "JavaScript"]
+    title: "Oficina Engetronic - Landing Page",
+    description: "Uma landing page moderna e totalmente responsiva para uma oficina automotiva, com foco em manutenção de qualidade e o melhor atendimento.",
+    link: "https://engetronic.vercel.app/",
+    technologies: ["HTML", "CSS", "JavaScript", "Figma"]
   },
   {
-    title: "E-commerce Minimalista",
-    description: "Loja virtual com design limpo e foco na experiência de compra, integrada com gateway de pagamento.",
-    link: "#",
-    technologies: ["React", "Styled Components", "API"]
+    title: "Sistema de Verificador de Nomes Repetidos - VNR",
+    description: "Sistema feito com exclusividade para um gestor verificar as informações passadas por seus colaboradores.",
+    link: "https://sistema-vnr.vercel.app/",
+    technologies: ["HTML", "CSS", "JavaScript", "Figma"]
   },
-  {
-    title: "Dashboard Analytics",
-    description: "Painel administrativo para visualização de dados e métricas com gráficos interativos e relatórios personalizáveis.",
-    link: "#",
-    technologies: ["Vue.js", "Chart.js", "REST API"]
-  }
+  // {
+  //   title: "Dashboard Analytics",
+  //   description: "Painel administrativo para visualização de dados e métricas com gráficos interativos e relatórios personalizáveis.",
+  //   link: "#",
+  //   technologies: ["Vue.js", "Chart.js", "REST API"]
+  // }
 ];
 
 // Dados de perfil (pode ser expandido)
