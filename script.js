@@ -13,13 +13,7 @@ const projectsData = [
     description: "Sistema feito com exclusividade para um gestor verificar as informações passadas por seus colaboradores.",
     link: "https://sistema-vnr.vercel.app/",
     technologies: ["HTML", "CSS", "JavaScript", "Figma"]
-  },
-  // {
-  //   title: "Dashboard Analytics",
-  //   description: "Painel administrativo para visualização de dados e métricas com gráficos interativos e relatórios personalizáveis.",
-  //   link: "#",
-  //   technologies: ["Vue.js", "Chart.js", "REST API"]
-  // }
+  }
 ];
 
 // Dados de perfil (pode ser expandido)
